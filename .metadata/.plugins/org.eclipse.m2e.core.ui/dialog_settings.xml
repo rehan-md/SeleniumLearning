@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\SeleniumLearning\SeleniumWorkspace\MavenBasic\src\test\java\MavenBasic\MavenBasic\handleWindows.java"/>
 			<item value="D:\SeleniumLearning\SeleniumWorkspace\JavaLearning"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,12 +27,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="MavenBasic.CucumberDemo"/>
+			<item value="MavenBasic.CucumberCrashCourse"/>
 			<item value="MavenBasic.MavenBasic"/>
 		</list>
 		<list key="groupId">
 			<item value="MavenBasic"/>
 		</list>
 		<list key="artifactId">
+			<item value="CucumberDemo"/>
+			<item value="CucumberCrashCourse"/>
 			<item value="MavenBasic"/>
 		</list>
 		<list key="projectNameTemplate">

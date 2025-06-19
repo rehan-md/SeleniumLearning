@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-03T13:44:38 IST" name="Default suite" finished-at="2025-05-03T13:44:51 IST" duration-ms="13687">
+  <suite started-at="2025-06-17T12:15:00 IST" name="Suite" finished-at="2025-06-17T12:15:00 IST" duration-ms="86">
     <groups>
+      <group name="Functional">
+        <method signature="C1.tm3()[pri:3, instance:testNGbasic.C1@477b4cdf]" name="tm3" class="testNGbasic.C1"/>
+        <method signature="C2.tm5()[pri:5, instance:testNGbasic.C2@77c2494c]" name="tm5" class="testNGbasic.C2"/>
+      </group> <!-- Functional -->
+      <group name="Sanity">
+        <method signature="C1.tm1()[pri:1, instance:testNGbasic.C1@477b4cdf]" name="tm1" class="testNGbasic.C1"/>
+        <method signature="C2.tm2()[pri:2, instance:testNGbasic.C2@77c2494c]" name="tm2" class="testNGbasic.C2"/>
+        <method signature="C1.tm3()[pri:3, instance:testNGbasic.C1@477b4cdf]" name="tm3" class="testNGbasic.C1"/>
+        <method signature="C2.tm5()[pri:5, instance:testNGbasic.C2@77c2494c]" name="tm5" class="testNGbasic.C2"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="C1.tm3()[pri:3, instance:testNGbasic.C1@477b4cdf]" name="tm3" class="testNGbasic.C1"/>
+        <method signature="C2.tm5()[pri:5, instance:testNGbasic.C2@77c2494c]" name="tm5" class="testNGbasic.C2"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-05-03T13:44:38 IST" name="Default test" finished-at="2025-05-03T13:44:51 IST" duration-ms="13687">
-      <class name="MavenBasic.MavenBasic.driverLaunch">
-        <test-method signature="openBrowser()[pri:0, instance:MavenBasic.MavenBasic.driverLaunch@35d019a3]" started-at="2025-05-03T13:44:38 IST" name="openBrowser" finished-at="2025-05-03T13:44:51 IST" duration-ms="13650" status="PASS">
+    <test started-at="2025-06-17T12:15:00 IST" name="Test" finished-at="2025-06-17T12:15:00 IST" duration-ms="86">
+      <class name="testNGbasic.C1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNGbasic.C1@477b4cdf]" started-at="2025-06-17T12:15:00 IST" name="launchBrowser" finished-at="2025-06-17T12:15:00 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-      </class> <!-- MavenBasic.MavenBasic.driverLaunch -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="tm1()[pri:1, instance:testNGbasic.C1@477b4cdf]" started-at="2025-06-17T12:15:00 IST" name="tm1" finished-at="2025-06-17T12:15:00 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm1 -->
+        <test-method signature="tm3()[pri:3, instance:testNGbasic.C1@477b4cdf]" started-at="2025-06-17T12:15:00 IST" name="tm3" finished-at="2025-06-17T12:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm3 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testNGbasic.C1@477b4cdf]" started-at="2025-06-17T12:15:00 IST" name="quitBrowser" finished-at="2025-06-17T12:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testNGbasic.C1 -->
+      <class name="testNGbasic.C2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNGbasic.C2@77c2494c]" started-at="2025-06-17T12:15:00 IST" name="launchBrowser" finished-at="2025-06-17T12:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="tm2()[pri:2, instance:testNGbasic.C2@77c2494c]" started-at="2025-06-17T12:15:00 IST" name="tm2" finished-at="2025-06-17T12:15:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm2 -->
+        <test-method signature="tm5()[pri:5, instance:testNGbasic.C2@77c2494c]" started-at="2025-06-17T12:15:00 IST" name="tm5" finished-at="2025-06-17T12:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tm5 -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testNGbasic.C2@77c2494c]" started-at="2025-06-17T12:15:00 IST" name="quitBrowser" finished-at="2025-06-17T12:15:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testNGbasic.C2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
